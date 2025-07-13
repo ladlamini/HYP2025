@@ -45,6 +45,7 @@
 
 .menu-items {
   align-items: center;
+   justify-content: center;
   text-align: center;
   display: flex;
   margin: 0;

@@ -1,34 +1,31 @@
-import { useState } from 'react'
-import MenuSideBar from './components/menusidebar'
-import './App.css'
-import {Link, Route} from "react-router-dom"
-import Home from './pages/Home'
-function App() {
- // const [count, setCount] = useState(0)
 
-  return (
-    <>
-  {/* <Route path= "/Home" element={<Home/>}></Route> */}
-      <h1>Welcome to an AI powered IDS</h1>
-      
-         <MenuSideBar/>
-      <div className="card">
-        {/* <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button> */}
-        {/* <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p> */}
-      </div>
-      <p className="read-the-docs">
-        Select your dataset below
-        <hr/>
-        <button>
-          Dataset
-        </button>
-      </p>
-    </>
-  )
+import MenuSideBar from './components/MenuSideBar.jsx'
+import './App.css'
+import {BrowserRouter as Router, Routes, Route, BrowserRouter} from "react-router-dom"
+import {Link} from "react-router-dom"
+//page imports
+import Home from './pages/Home.jsx'
+import DatasetSelection from './pages/DatasetSelection.jsx'
+import Dashboard from './pages/Dashboard.jsx'
+import Training from './pages/Training.jsx'
+import Knowledge from './pages/Knowledge.jsx'
+
+function App() {
+return(
+<div>
+  <MenuSideBar/>
+
+{/* Routes to the pages */}
+<Routes>
+   <Route path="/home" element={<Home />}></Route> 
+   <Route path="/DatasetSelection" element ={<DatasetSelection />}></Route>
+   <Route path="/Dashboard" element ={<Dashboard />}></Route>
+   <Route path="/Training" element ={<Training />}></Route>
+   <Route path="/Knowledge" element ={<Knowledge/>}></Route>
+</Routes>
+</div>
+);
+
 }
 
 export default App

@@ -1,27 +1,25 @@
 import { useState } from 'react'
 import React from 'react'
-import {Link} from "react-router-dom"
+import {Link, Routes, Route} from "react-router-dom"
 import { FaBars } from 'react-icons/fa'
-import Home from '../pages/Home';
+
 
 function MenuSideBar() {
-     // const [isOpen, setIsOpen] = useState(false);
-        //const navigate = useNavigate();
+    
   return (
     <>
       <div className='menubar'>
           <ul className='menu-items'>
-                <a href="/home">Home</a>
-                <a href="#">Upload Dataset</a>
-                <a href="#">Training</a>
-                <a href="#">Results</a>
-                <a href="#">Dashboard</a>
-                <a href="#">Knowledge</a>
+             <Link to="/home">Home</Link>
+             <Link to="/datasetselection">Upload Dataset</Link> 
+            <Link to="/training">Train the model</Link> 
+            <Link to="/dashboard">Dashboard</Link> 
+             <Link to="/knowledge">Knowledge</Link> 
           </ul>
       </div>
     </>
-  );
-};
+  )
+}
 
 export default MenuSideBar;
 
