@@ -1,8 +1,38 @@
 import React from 'react'
+import '../App.css'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+ <>
+ <div className='dashboardreport'>
+    <div className='placeholder response'>
+
+    </div>
+     
+    <div className='placeholder response'>
+
+    </div>
+     
+    <div className='placeholder response'>
+
+    </div>
+     <div className='placeholder response'>
+
+    </div>
+     <div className='placeholder response'>
+
+    </div>
+     <div className='placeholder response'>
+
+    </div>
+     <div className='placeholder response'>
+
+    </div>
+     <div className='placeholder response'>
+
+    </div>
+    </div>
+    </>
   )
 }
 

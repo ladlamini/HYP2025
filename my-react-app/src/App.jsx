@@ -1,5 +1,6 @@
-
+//components imports
 import MenuSideBar from './components/MenuSideBar.jsx'
+//stuff so this pages works lol
 import './App.css'
 import {BrowserRouter as Router, Routes, Route, BrowserRouter} from "react-router-dom"
 import {Link} from "react-router-dom"

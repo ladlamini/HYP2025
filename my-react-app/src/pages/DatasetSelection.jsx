@@ -1,8 +1,14 @@
 import React from 'react'
 
 function DatasetSelection() {
+
   return (
-    <div>DatasetSelection</div>
+    <div>
+      <button>Train Supervised Model</button>
+      <br/>
+      <br/>
+      <button>Train Unsupervised Model</button>
+    </div>
   )
 }
 

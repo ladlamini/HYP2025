@@ -66,3 +66,30 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* dashboard css */
+ .placeholder {
+    background-color: #e2e2e2;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: rgba(194, 206, 218, 0.2) 0px 8px 24px;
+  }
+
+  .response{
+    width: 200px;
+    height: 10rem;
+  }
+   .dashboardreport {
+    min-height: 630px;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2vw;
+    flex-wrap: wrap;
+    background-color: #fffdfd;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+  }
