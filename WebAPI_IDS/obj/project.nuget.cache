@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ERNl8NJZ7Ms=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leedl\\OneDrive\\Documents\\GitHub\\hyp\\WebAPI_IDS\\WebAPI_IDS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leedl\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.12\\microsoft.dotnet.ilcompiler.8.0.12.nupkg.sha512",
+    "C:\\Users\\leedl\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.12\\microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+    "C:\\Users\\leedl\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.12\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
