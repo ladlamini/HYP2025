@@ -2,7 +2,10 @@ import React from 'react'
 
 function Knowledge() {
   return (
-    <div>Knowledge</div>
+    <>
+    <div>Knowledge: Mitre Att&ck </div>
+ 
+    </>
   )
 }
 

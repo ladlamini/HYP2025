@@ -18,6 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -28,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image:   linear-gradient(rgba(71, 71, 190, 0.59), rgba(200, 216, 255, 0.89));
 }
 
 h1 {
@@ -46,9 +48,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
-  border-color: #646cff;
+  border-color: #777cdc;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -56,7 +60,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #2e4254;
     background-color: #ffffff;
   }
   a:hover {
@@ -74,11 +78,12 @@ button:focus-visible {
     padding: 1em;
     box-shadow: rgba(194, 206, 218, 0.2) 0px 8px 24px;
   }
-
+   
   .response{
     width: 200px;
     height: 10rem;
   }
+
    .dashboardreport {
     min-height: 630px;
     padding: 20px;
@@ -91,5 +96,4 @@ button:focus-visible {
     align-items: center;
     display: flex;
     flex-direction: row;
-
   }

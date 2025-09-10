@@ -1,39 +1,14 @@
-import React from 'react'
-import '../App.css'
+import React, { useEffect, useState } from 'react';
+import '../App.css';
 
 function Dashboard() {
+ 
   return (
- <>
- <div className='dashboardreport'>
-    <div className='placeholder response'>
 
-    </div>
+      <h2>Security Dashboard</h2>
+   
      
-    <div className='placeholder response'>
-
-    </div>
-     
-    <div className='placeholder response'>
-
-    </div>
-     <div className='placeholder response'>
-
-    </div>
-     <div className='placeholder response'>
-
-    </div>
-     <div className='placeholder response'>
-
-    </div>
-     <div className='placeholder response'>
-
-    </div>
-     <div className='placeholder response'>
-
-    </div>
-    </div>
-    </>
-  )
+  );
 }
 
-export default Dashboard
+export default Dashboard;

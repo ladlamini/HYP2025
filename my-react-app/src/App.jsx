@@ -1,7 +1,10 @@
+
+
 //components imports
 import MenuSideBar from './components/MenuSideBar.jsx'
 //stuff so this pages works lol
 import './App.css'
+import './Index.css'
 import {BrowserRouter as Router, Routes, Route, BrowserRouter} from "react-router-dom"
 import {Link} from "react-router-dom"
 //page imports
@@ -11,9 +14,11 @@ import Dashboard from './pages/Dashboard.jsx'
 import Training from './pages/Training.jsx'
 import Knowledge from './pages/Knowledge.jsx'
 
+
 function App() {
 return(
 <div>
+  
   <MenuSideBar/>
 
 {/* Routes to the pages */}

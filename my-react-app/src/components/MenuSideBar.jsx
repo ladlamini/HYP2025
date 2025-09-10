@@ -11,10 +11,10 @@ function MenuSideBar() {
       <div className='menubar'>
           <ul className='menu-items'>
              <Link to="/home">Home</Link>
-             <Link to="/datasetselection">Upload Dataset</Link> 
+             {/* <Link to="/datasetselection">Upload Dataset</Link>  */}
             <Link to="/training">Train the model</Link> 
             <Link to="/dashboard">Dashboard</Link> 
-             <Link to="/knowledge">Knowledge</Link> 
+             <Link to="/knowledge">Knowledge non-technical users</Link> 
           </ul>
       </div>
     </>

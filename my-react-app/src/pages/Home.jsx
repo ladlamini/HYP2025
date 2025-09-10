@@ -1,24 +1,23 @@
 import React from 'react'
 import MenuSideBar from '../components/MenuSideBar.jsx'
 import { FaDropbox } from 'react-icons/fa';
+import '../Index.css'
 
-function Home() {
-     
+function Home() {  
   return (
     <>
-    <MenuSideBar/>
-      <h1>Welcome to an AI powered IDS</h1>
+    <MenuSideBar/>   
+      <h1>AI powered IDS with Visualisation</h1>
       
          {/* <MenuSideBar/> */}
       <div className="card">
       </div>
-      <p className="read-the-docs">
-        Select your dataset below
-   <br/>
-        <button >
-          Dataset
-        </button>
+      <p className="title"> 
+        {/* <button >
+          Select a Dataset
+        </button> */}
       </p>
+
     </>
   )
 }
