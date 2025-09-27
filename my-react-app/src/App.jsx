@@ -13,7 +13,7 @@ import DatasetSelection from './pages/DatasetSelection.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Training from './pages/Training.jsx'
 import Knowledge from './pages/Knowledge.jsx'
-
+import Testing from './pages/Testing.jsx'
 
 function App() {
 return(
@@ -27,6 +27,7 @@ return(
    <Route path="/DatasetSelection" element ={<DatasetSelection />}></Route>
    <Route path="/Dashboard" element ={<Dashboard />}></Route>
    <Route path="/Training" element ={<Training />}></Route>
+    <Route path="/Testing" element ={<Testing />}></Route>
    <Route path="/Knowledge" element ={<Knowledge/>}></Route>
 </Routes>
 </div>

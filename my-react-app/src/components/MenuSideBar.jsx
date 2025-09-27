@@ -13,6 +13,7 @@ function MenuSideBar() {
              <Link to="/home">Home</Link>
              {/* <Link to="/datasetselection">Upload Dataset</Link>  */}
             <Link to="/training">Train the model</Link> 
+             <Link to="/testing">Testing the model</Link> 
             <Link to="/dashboard">Dashboard</Link> 
              <Link to="/knowledge">Knowledge non-technical users</Link> 
           </ul>
